@@ -1,9 +1,9 @@
+html { height: 100% }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     max-width: 200px;
-    height: 100%;
     background-color: #f1f1f1;
 }
 
@@ -23,4 +23,13 @@ li a:hover {
 li a.active {
     background-color: #555;
     color: white;
+}
+
+div.sidebar {
+    width: 200px;
+    height: 100vh;
+    float: left;
+}
+div.stream {
+    float: left
 }

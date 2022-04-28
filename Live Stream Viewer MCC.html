@@ -2,14 +2,35 @@
 <html>
     <title>AtlasToAtlantis | Livestream Viewer</title>
     <link rel="icon" type="image/x-icon" href="/images/AtlasToAtlantis Watermark.png">
-    <link rel="stylesheet" href="css/Twitch Viewer Nav Bar.css">
+    <link rel="stylesheet" href="css/Twitch Viewer.css">
     <link rel="stylesheet" href="css/Nav Bar Top.css">
-    <head>
+    <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+    <head></head>
     <div class="topnav">
         <a href="index.html">Home</a>
         <a class="active" href="Live Stream Viewer Home.html">Group Livestream Viewer</a>
     </div>
-    <ul>
-        <li><a class="active" href="Live Stream Viewer MCC.html">MCC</a></li>
-    </ul>
+    <div class="sidebar">
+        <ul>
+            <li><a class="active" href="Live Stream Viewer MCC.html">MCC</a></li>
+        </ul>
+    </div>
+    <body>
+        
+        <div class="stream" id="player div ID"></div>
+        <script type="text/javascript">
+        var options = {
+            width: 400,
+            height: 200,
+            channel: "omzzie",
+
+            // only needed if your site is also embedded on embed.example.com and othersite.example.com
+            parent: ["127.0.0.1"]
+        };
+        var player = new Twitch.Player("player div ID", options);
+        player.setVolume(0.5);
+        </script>
+        
+    </body>
+    
 </html>
