@@ -1,0 +1,59 @@
+h1 {
+    color: white;
+    text-align: center;
+}
+h2 {
+    color: white;
+    text-align: center;
+}
+h3 {
+    color: white;
+    text-align: center;
+}
+h4 {
+    color: white;
+    text-align: center;
+}
+h5 {
+    color: white;
+    text-align: center;
+}
+h6 {
+    color: white;
+    text-align: center;
+}
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+a {
+    color: #9cfffd;
+    text-align: center;
+}
+a.Title {
+    color: #9cfffd;
+    text-align: center;
+    font-size: 32px;
+    background-size: windowWidth windowHeight;
+    background-color: blue;
+}
+.topnav {
+    background-color: #363636;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
