@@ -1,27 +1,60 @@
-div.red{
-
+div.Red{
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 2px;
+    float: left;
 }
-div.orange{
-    
+div.Orange{
+    outline-style: solid;
+    outline-color: Orange;
+    outline-width: 2px;
+    float: left;
 }
-div.yellow{
-    
+div.Yellow{
+    outline-style: solid;
+    outline-color: Yellow;
+    outline-width: 2px;
+    float: left;
 }
-div.lime{
-    
+div.Lime{
+    outline-style: solid;
+    outline-color: lime;
+    outline-width: 2px;
+    float: left;
 }
-div.green{
-    
+div.Green{
+    outline-style: solid;
+    outline-color: green;
+    outline-width: 2px;
+    float: left;
 }
-div.lightblue{
-    
+div.Light_Blue{
+    outline-style: solid;
+    outline-color: lightblue;
+    outline-width: 2px;
+    float: left;
 }
-div.blue{
-    
+div.Blue{
+    outline-style: solid;
+    outline-color: blue;
+    outline-width: 2px;
+    float: left;
 }
-div.purple{
-    
+div.Purple{
+    outline-style: solid;
+    outline-color: purple;
+    outline-width: 2px;
+    float: left;
 }
-div.pink{
-    
+div.Magenta{
+    outline-style: solid;
+    outline-color: magenta;
+    outline-width: 2px;
+    float: left;
+}
+div.Pink{
+    outline-style: solid;
+    outline-color: pink;
+    outline-width: 2px;
+    float: left;
 }
